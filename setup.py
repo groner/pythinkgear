@@ -4,7 +4,7 @@ packages=find_packages()
 
 setup(
     name="thinkgear",
-    version='0.1',
+    version='0.2',
     # uncomment the following lines if you fill them out in release.py
     description='thinkgear parses the ThinkGear protocol used by NeuroSky MindSet devices',
     author='Kai Groner',
