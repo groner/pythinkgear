@@ -1,0 +1,4 @@
+*.pyc
+.*.sw?
+dist
+thinkgear.egg-info
