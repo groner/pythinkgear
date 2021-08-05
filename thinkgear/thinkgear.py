@@ -30,6 +30,11 @@ import serial
 
 from cStringIO import StringIO
 
+if sys.version_info.major == 2:
+    from cStringIO import StringIO
+else:
+    import io as cStringIO
+
 import struct
 
 from collections import namedtuple
